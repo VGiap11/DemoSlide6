@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSlide6.WebAPI", "DemoSlide6.WebAPI\DemoSlide6.WebAPI.csproj", "{18724D83-B7AC-4680-B52A-ED1A93A66318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSlide6.API", "DemoSlide6.API\DemoSlide6.API.csproj", "{6A2A7935-7EE8-4105-91B8-F8CE8D21A4B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18724D83-B7AC-4680-B52A-ED1A93A66318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18724D83-B7AC-4680-B52A-ED1A93A66318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18724D83-B7AC-4680-B52A-ED1A93A66318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18724D83-B7AC-4680-B52A-ED1A93A66318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2A7935-7EE8-4105-91B8-F8CE8D21A4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2A7935-7EE8-4105-91B8-F8CE8D21A4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2A7935-7EE8-4105-91B8-F8CE8D21A4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2A7935-7EE8-4105-91B8-F8CE8D21A4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45F9C877-6936-4D48-BF46-5958EA296849}
+	EndGlobalSection
+EndGlobal
