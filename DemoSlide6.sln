@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSlide6.WebAPI", "DemoSl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSlide6.API", "DemoSlide6.API\DemoSlide6.API.csproj", "{6A2A7935-7EE8-4105-91B8-F8CE8D21A4B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSlide6.WebApp", "DemoSlide6.WebApp\DemoSlide6.WebApp.csproj", "{732849E4-D75A-41B2-9C61-FD491456B1B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6A2A7935-7EE8-4105-91B8-F8CE8D21A4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A2A7935-7EE8-4105-91B8-F8CE8D21A4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A2A7935-7EE8-4105-91B8-F8CE8D21A4B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732849E4-D75A-41B2-9C61-FD491456B1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732849E4-D75A-41B2-9C61-FD491456B1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732849E4-D75A-41B2-9C61-FD491456B1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732849E4-D75A-41B2-9C61-FD491456B1B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
