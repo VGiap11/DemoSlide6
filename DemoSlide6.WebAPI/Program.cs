@@ -1,4 +1,9 @@
 
+using DemoSlide6.API.AppDbContext;
+using DemoSlide6.API.IRepositoryStudent;
+using DemoSlide6.API.IRepositoryStudent.RepositoryStudent;
+using Microsoft.EntityFrameworkCore;
+
 namespace DemoSlide6.WebAPI
 {
     public class Program
@@ -8,8 +13,12 @@ namespace DemoSlide6.WebAPI
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.Services.AddDbContext<AppDbContexts>(option =>
+            {
+                option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnect"));
+            });
             builder.Services.AddControllers();
+            builder.Services.AddTransient<IStudentRepository, StudentRepository>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
