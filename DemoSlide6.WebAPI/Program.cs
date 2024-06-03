@@ -1,5 +1,7 @@
 
 using DemoSlide6.API.AppDbContext;
+using DemoSlide6.API.IRepositoryLopHoc;
+using DemoSlide6.API.IRepositoryLopHoc.RepositoryLopHoc;
 using DemoSlide6.API.IRepositoryStudent;
 using DemoSlide6.API.IRepositoryStudent.RepositoryStudent;
 using Microsoft.EntityFrameworkCore;
@@ -19,6 +21,7 @@ namespace DemoSlide6.WebAPI
             });
             builder.Services.AddControllers();
             builder.Services.AddTransient<IStudentRepository, StudentRepository>();
+            builder.Services.AddTransient<ILopHocRepository,LopHocRepository>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

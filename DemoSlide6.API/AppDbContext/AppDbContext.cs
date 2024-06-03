@@ -23,6 +23,7 @@ namespace DemoSlide6.API.AppDbContext
             base.OnModelCreating(modelBuilder);
         }
         public DbSet<Student> Students { get; set; }
+        public DbSet<LopHoc> LopHoc { get; set;}
 
     }
 }
